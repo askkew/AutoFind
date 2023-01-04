@@ -1,7 +1,10 @@
 import React from 'react'
+import Searcharea from '../searcharea'
 
 export const Usedcars = () => {
   return (
-    <div>Usedcars</div>
+    <>
+      <Searcharea />
+    </>
   )
 }
