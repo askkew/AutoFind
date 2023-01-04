@@ -41,6 +41,7 @@ const Searcharea = () => {
     setModel(event.target.value);
   };
   return (
+    // <div style={{backgroundImage: "url(" + "https://media.evo.co.uk/image/private/s--h8JCVqRl--/f_auto,t_content-image-full-desktop@1/v1605272222/evo/2020/11/BMW%20M3s%20on%20a%20budget-13.jpg" + ")",
     <div style={{backgroundImage: "url(" + "https://media.evo.co.uk/image/private/s--xYRPhPhA--/v1556220049/evo/2018/04/alp_9699.jpg" + ")",
       backgroundPosition: 'center',
       backgroundSize: 'cover',
