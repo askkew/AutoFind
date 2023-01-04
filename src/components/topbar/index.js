@@ -18,16 +18,16 @@ const Topbar = () => {
         <Bars />
         <NavMenu>
           <NavLink to='/newcars' activeStyle>
-            New Cars
+            <strong>New Cars</strong>
           </NavLink>
           <NavLink to='/usedcars' activeStyle>
-            Used Cars
+            <strong>Used Cars</strong>
           </NavLink>
           <NavLink to='/about' activeStyle>
-            About
+            <strong>About</strong>
           </NavLink>
           <NavLink to='/contact' activeStyle>
-            Contact
+            <strong>Contact</strong>
           </NavLink>
           <NavLink to='/budget'>
             <PaidIcon fontSize='large' style={{color:'#fff'}} />
@@ -37,7 +37,7 @@ const Topbar = () => {
           </NavLink>
         </NavMenu>
         <NavBtn>
-          <NavBtnLink style={{backgroundColor: "rgb(236, 92, 0);"}} to='/signin'>Sign In</NavBtnLink>
+          <NavBtnLink style={{backgroundColor: "rgb(236, 92, 0);"}} to='/signin'><strong>Sign In</strong></NavBtnLink>
         </NavBtn>
       </Nav>
 
